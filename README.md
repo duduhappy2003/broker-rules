@@ -11,10 +11,10 @@ Current coverage:
 
 Rule counts:
 
-- `DOMAIN-SUFFIX`: 49
-- `DOMAIN`: 10
-- `IP-CIDR`: 18
-- `TOTAL`: 77
+- `DOMAIN-SUFFIX`: 68
+- `DOMAIN`: 18
+- `IP-CIDR`: 63
+- `TOTAL`: 149
 
 ## Structure
 
@@ -107,8 +107,9 @@ This ruleset fully incorporates the relevant brokerage entries from the followin
   - all 3 additional Futu IP entries from the `futu` section in `Stocks.list`
 - `blackmatrix7/ios_rule_script`
   - full `TigerFintech.list`
+  - community update proposal in issue `#1687` for Futu, Moomoo, Longbridge, and Tiger Brokers
 
-On top of those upstream datasets, this repository adds official domains used by quote delivery, Level 2 data, OpenAPI, login flows, and support centers, plus a small set of observable entry IPs captured on `2026-05-30`.
+On top of those upstream datasets, this repository adds official domains used by quote delivery, Level 2 data, OpenAPI, login flows, and support centers, plus observable entry IPs captured on `2026-05-30` and community-reported CIDR ranges normalized to network-address notation.
 
 ## Acknowledgements
 
