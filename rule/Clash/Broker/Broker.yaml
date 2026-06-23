@@ -7,6 +7,8 @@
 # IP-CIDR: 63
 # TOTAL: 149
 payload:
+  - DOMAIN-SUFFIX,vbkr.com 
+  - DOMAIN-SUFFIX,hstbroker.com
   - DOMAIN-SUFFIX,vcltrade.com
   - DOMAIN-SUFFIX,hstong.com
   - DOMAIN-SUFFIX,futuhk.com
