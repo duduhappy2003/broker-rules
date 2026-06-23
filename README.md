@@ -1,3 +1,5 @@
+纯自用，fork自别的大佬的，以下内容懒得改了。
+
 # Broker Rules
 
 Broker routing rules for popular cross-border brokerage and wealth platforms used by Chinese-speaking communities. The goal is to route these services through one fixed-exit policy such as `Broker`[...]
